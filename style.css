@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu{
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    padding: 0rem 0rem 0rem 1.2rem;
+    height: 3.2rem;
+    position: fixed;
+    left: 0rem;
+    bottom: 0rem;
+    color: gray;
+    /* align-items: center; */
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.but{
+    font-size: large;
+    font-weight: 600;
+    color: rgb(0, 150, 0);
+    position: absolute;
+    right: 0.8rem;
+    bottom: 1rem;
+}
+
+.but:hover{
+    scale: 1.1;
+}
+
+.but:active{
+    scale: 1.0;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="icon" type="image/x-icon" href="fnc.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Strike Up</title>
+</head>
+<body style="background-color: black;">
+    <div class="menu" id="menu">
+        <!-- <p>Score : </p>
+        <p style="margin-left: 1rem;">HighScore : </p>
+         -->
+    </div>
+    <ion-icon name="refresh-outline" class="but" id="retry"></ion-icon>
+    <ion-icon name="chevron-up-outline" class="but" style="position: absolute; right: 3.2rem; bottom: 1.6rem;" id="lvlup"></ion-icon>
+    <p id="lvl" style="position: absolute; right: 3.2rem; color: rgb(0, 150, 0); font-size: x-small; bottom: 0.2rem; font-weight: 500;"> 0 </p>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+    <script src="https://unpkg.com/p5.collide2d"></script>
+    <script src="app.js"></script>
+</body>
+</html>
